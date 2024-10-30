@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальное окружение
+search_env/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Данные и индексы
+data/
+DATA/
+vector_index.pkl
+documents.pkl
+index_info.json
+*.pkl
+*.bin
+*.h5
+*.npy
+*.npz
+
+# Elasticsearch
+elasticsearch-*/
+elasticsearch.yml
+elasticsearch-data/
+
+# Логи и временные файлы
+logs/
+*.log
+log.txt
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы с чувствительными данными
+config.ini
+secrets.json
+.env.local
+.env.development
+.env.production
+
+# Результаты тестов и валидации
+validation_results/
+test_results/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+
+
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Данные и модели
