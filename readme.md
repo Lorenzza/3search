@@ -14,7 +14,7 @@
 ## Установка
 bash
 Клонирование репозитория
-git clone [[https://github.com/your-repo/movie-reviews-search.git](https://github.com/Lorenzza/3search)](https://github.com/Lorenzza/3search)
+git clone https://github.com/Lorenzza/3search
 cd movie-reviews-search
 Установка зависимостей
 pip install -r requirements.txt
