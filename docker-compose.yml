@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  search_system:
+    build: .
+    ports:
+      - "8000:8000"  # Router
+      - "8001:8001"  # Fulltext
+      - "8002:8002"  # Vector
+      - "8003:8003"  # Validator
+    volumes:
+      - ./validation_results:/app/validation_results
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

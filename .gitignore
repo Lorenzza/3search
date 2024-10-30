@@ -71,8 +71,6 @@ secrets.json
 .env.production
 
 # Результаты тестов и валидации
-validation_results/
-test_results/
 .coverage
 htmlcov/
 .pytest_cache/
@@ -80,6 +78,9 @@ htmlcov/
 nosetests.xml
 coverage.xml
 
+!validation_results/
+!validation_results/*.csv
+!validation_results/plots_*/
 
 
 # Jupyter Notebooks
