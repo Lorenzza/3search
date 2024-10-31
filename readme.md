@@ -26,6 +26,7 @@ python run_all_services.py
 **Важно! Для запуска инициализации и всё время работы на машине должен быть запущен Elasticsearch!**
 
 ## Структура проекта
+```
 ├── search_services/ # Основной модуль с сервисами
 │ ├── init.py
 │ ├── fulltext/ # Полнотекстовый поиск (PostgreSQL)
@@ -57,7 +58,7 @@ python run_all_services.py
 │
 ├── requirements.txt # Зависимости проекта
 └── README.md 
-
+```
 # Документация
 ## Описание скриптов
 run_init_services.py - выполняет инициализацию данных:
